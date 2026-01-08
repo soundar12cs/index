@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    
+    border:1px solid;
+   
+}
+.box1{
+    background-color: yellow;
+     width:32%;
+}
+.box2{
+    background-color: red;
+     width:32%;
+}
+.box3{
+    background-color:blue;
+     width:25%;
+}
+.box4{
+    background-color:green;
+     width:calc(50%-30px)
+}
+.box5{
+    background-color:violet;
+    
+    
+
+}
+.parent{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    padding: 20px;
+    
+    border:1px solid;
+    height: 100vh;
+    align-items:top;
+    flex-wrap: wrap;
+
+}
+
